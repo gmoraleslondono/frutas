@@ -1,0 +1,38 @@
+/* reglas que se aplican al HTML, fondo, color de letra, etc */
+
+/*para dar un formato a toda la pagina se utiliza un selector universal *{}
+*{
+    margin: 10px;
+    padding: 5px;
+    color: black  este es para dar color a todo el texto
+} */
+div {
+    background: #ff8000;
+    width: 500px;
+}
+
+body {
+    background: #d9d9d9;
+  }
+article {
+    margin-right: 30%;
+    margin-left: 30%;
+    width: 40%;
+    background: #fff;
+    padding: 5px;
+    display: inline-block;
+     }
+h1 {
+    background: #0092bf;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+img {
+    float : left;
+    width : 10%;
+}
